@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/innerpage.css">
-    <script src="/js/custom.js" defer></script>
+    <link rel="stylesheet" href="/html_and_css_asssignment/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/html_and_css_asssignment/css/innerpage.css">
+    <script src="/html_and_css_asssignment/js/custom.js" defer></script>
 
     <title>Innerpage</title>
 </head>
@@ -14,60 +14,38 @@
 <body>
 
     <div class="container-fluid">
-        <div class="row">
-            <!-- navbar -->
-            <nav>
-                <div class="container-navbar">
-                    <div class="row-nav row">
-                        <div class="col-2 cols column1">
-                            <div class="d-flex mb-3">
-                                <div class="p-2 w-25">
+        
+        <!-- navbar -->
 
-                                    <button class="menu-img"> <img src="/images/menu-bar.svg" alt></button>
-                                </div>
-                                <div class="py-2 px-3 w-75">
-                                    <img src="/images/header-logo.svg" alt class="header-logo-img">
-                                </div>
+        <div class="">
+            <nav class="navbar container-fluid d-flex justify-content-between">
+                
+                    <div class="d-flex justify-content-center align-items-center">
+                        <button class="menu-img" onclick="">
+                            <img src="/html_and_css_asssignment/images/menu-bar.svg" alt="" height="20px" >
+                        </button>
+                        <a class="navbar-brand" href="#"><img src="/html_and_css_asssignment/images/logo.svg" alt="" height="25px"></a>
+                        <div>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <button class="btn"><img src="/html_and_css_asssignment/images/search-icon.svg" alt="" height="16px"></button>
                             </div>
                         </div>
-                        <div class="col-6 cols column3">
-                            <img src="/images/search-icon.svg" alt class="search-icon-img" />
-                            <div class="search-text">Search</div>
-                        </div>
-
-
-                        <div class="col-1 cols column4 float-start">
-                            <div class="float-left">
-                                <img src="/images/notification-icon.svg" alt class="notification-img">
-                            </div>
-                        </div>
-                        <div class="col-3 cols column5 mt-3">
-                            <div class="float-start">
-                                <div class="d-flex align-items-flex-start">
-                                    <div class="flex-shrink-0 rounded-circle">
-                                        <img src="/images/profile.png" class="img-fluid">
-                                    </div>
-                                    <div class="flex-grow-1 ms-3">
-                                        <div class="dropdown">
-                                            <button class="btn btn-outline-secondary dropdown-toggle drop-btn"
-                                                type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                Jone Due
-                                            </button>
-                                            <ul class="dropdown-menu">
-                                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- <div class="col-1 cols column7">
-                        <img src="/images/downward-arrow.svg" alt class="down-arror-img">
-                    </div> -->
                     </div>
-                </div>
+                    
+                    <div class="d-flex align-items-center">
+                        <img src="/html_and_css_asssignment/images/profile.png" height="35px">
+                        <span class="nav-item dropdown pad-left">
+                            <button class="btn btn-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              John Doe
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Sign out</a>
+                            </div>
+                        </span>
+                    </div>
+                
             </nav>
         </div>
 
@@ -78,31 +56,31 @@
                     <div class="row row-aside ">
                         <div class="col col-aside">
                             <div class="dashboard">
-                                <img src="/images/dashboard-active.svg" alt="" class="dashboard-img">
+                                <img src="/html_and_css_asssignment/images/dashboard-active.svg" alt="" class="dashboard-img">
                                 <span style="color: #C8242F;">Dashboard</span>
                             </div>
                             <div class="dashboard">
-                                <img src="/images/graph-default.svg" alt="" class="dashboard-img">
+                                <img src="/html_and_css_asssignment/images/graph-default.svg" alt="" class="dashboard-img">
                                 <span>Analysis</span>
                             </div>
                             <div class="dashboard">
-                                <img src="/images/inbox-default.svg" alt="" class="dashboard-img">
+                                <img src="/html_and_css_asssignment/images/inbox-default.svg" alt="" class="dashboard-img">
                                 <span>Inbox</span>
                             </div>
                             <div class="dashboard">
-                                <img src="/images/clock-default.svg" alt="" class="dashboard-img">
+                                <img src="/html_and_css_asssignment/images/clock-default.svg" alt="" class="dashboard-img">
                                 <span>History</span>
                             </div>
                             <div class="dashboard">
-                                <img src="/images/user-default.svg" alt="" class="dashboard-img">
+                                <img src="/html_and_css_asssignment/images/user-default.svg" alt="" class="dashboard-img">
                                 <span>Users</span>
                             </div>
                             <div class="dashboard">
-                                <img src="/images/maintenance-default.svg" alt="" class="dashboard-img">
+                                <img src="/html_and_css_asssignment/images/maintenance-default.svg" alt="" class="dashboard-img">
                                 <span>Maintenance</span>
                             </div>
                             <div class="dashboard">
-                                <img src="/images/setting-default.svg" alt="" class="dashboard-img">
+                                <img src="/html_and_css_asssignment/images/setting-default.svg" alt="" class="dashboard-img">
                                 <span>Setting</span>
                             </div>
                         </div>
